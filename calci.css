@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    width: 100%;
+}
+#container{
+    width: 1300px;
+    height: 580px;
+    margin-left: 120px;
+    margin-top: 80px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("calcibg.jpg");
+    border-radius: 12px;
+    box-shadow: 1px 2px 8px 5px rgb(211, 202, 202);
+    position: relative;
+}
+#calculator{
+    width: 390px;
+    height: 520px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    top: 30px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 3px 6px 20px 12px rgb(51, 50, 50);
+}
+#result{
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(217, 235, 235);
+}
+#history{
+    text-align: right;
+    height: 45px;
+    margin: 0 20px;
+    padding-top: 15px; 
+    font-size: 18px;
+    color: rgb(37, 37, 37);
+}
+#output{
+    text-align: right;
+    height: 45px;
+    margin: 10px 10px;
+    font-size: 30px;
+    
+}
+#keyboard{
+    height: 400px;
+    margin-left: 30px;
+}
+.operator,.number,.empty{
+    width: 48px;
+    height: 48px;
+    margin: 16px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.number{
+cursor: pointer;
+box-shadow: inset 6px 6px 6px rgb(188, 243, 210),6px 6px 13px black;
+
+}
+.operator{
+cursor: pointer;
+}
+
+.empty{
+    background-color: antiquewhite;
+
+}
+#clear:active,#backspace:active{
+    font-size: 20px;
+}
+.operator:active{
+    font-size: 30px;
+}
+.number:active{
+    font-size: 30px;
+}
+button:nth-child(1){
+    font-size: 16px;
+    background-color: aqua;
+    box-shadow: inset 6px 6px 6px aqua,6px 6px 13px black;
+}
+button:nth-child(2){
+    font-size: 16px;
+    background-color: #f08080;
+    box-shadow: inset 6px 6px 6px #f08080,6px 6px 13px black;
+}
+button:nth-child(3){
+    font-size: 20px;
+    background-color: rgb(150, 223, 77);
+    box-shadow: inset 6px 6px 6px rgb(150, 223, 77),6px 6px 13px black;
+}
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+    box-shadow: inset 6px 6px 6px #20b2aa,6px 6px 13px black;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: rgb(241, 120, 185);
+    box-shadow: inset 6px 6px 6px rgb(241, 120, 185),6px 6px 13px black;
+}
+button:nth-child(12){
+    font-size: 35px;
+    background-color: #9477af; 
+    box-shadow: inset 6px 6px 6px #9477af,6px 6px 13px black;
+
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #ffa500;
+    box-shadow: inset 6px 6px 6px #ffa500,6px 6px 13px black;
+}
+button:nth-child(19){
+    font-size: 20px;
+    background-color: #f08080;
+    box-shadow: inset 6px 6px 6px #f08080,6px 6px 13px black;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #7d93e0;
+    box-shadow: inset 6px 6px 6px #7d93e0,6px 6px 13px black;
+}
+.number{
+    background-color: rgb(188, 243, 210);
+}

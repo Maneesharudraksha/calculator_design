@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="calci.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>   
+    <div id="container">
+        <div id="calculator">
+            <div id="result">
+                <div id="history">
+                    <p id="history-value"></p>
+                </div>
+                <div id="output">
+                    <p id="output-value"></p>
+                </div>
+            </div>
+            <div id="keyboard">
+                <button onclick="allclear()" class="operator" id="clear">AC</button>
+                <button onclick="deletelast()" class="operator" id="backspace">DEL</button>
+                <button onclick="display('%')" class="operator" id="%">%</button>
+                <button onclick="display('/')" class="operator" id="/">&#247;</button>
+                <button onclick="display('7')" class="number" id="7">7</button>
+                <button onclick="display('8')" class="number" id="8">8</button>
+                <button onclick="display('9')" class="number" id="9">9</button>
+                <button onclick="display('*')" class="operator" id="*">&times;</button>
+                <button onclick="display('4')" class="number" id="4">4</button>
+                <button onclick="display('5')" class="number" id="5">5</button>
+                <button onclick="display('6')" class="number" id="6">6</button>
+                <button onclick="display('-')"class="operator" id="-">-</button>
+                <button onclick="display('1')" class="number" id="1">1</button>
+                <button onclick="display('2')" class="number" id="2">2</button>
+                <button onclick="display('3')" class="number" id="3">3</button>
+                <button onclick="display('+')" class="operator" id="+">+</button>
+                <button onclick="display('0')" class="number" id="0">0</button>
+                <button onclick="display('00')" class="number" id="00">00</button>
+                <button onclick="display('.')" class="operator" id=".">.</button>
+                <button onclick="calculate()" class="operator" id="=">=</button>
+                
+
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="calci.js">
+    </script>
+    
+</body>
+</html>
